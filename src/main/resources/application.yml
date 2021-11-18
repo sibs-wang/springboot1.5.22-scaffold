@@ -4,10 +4,7 @@ server:
 spring:
   datasource:
     username: root
-    data-password: 123456
-    url:
-    driver-class-name:
-    type: com.alibaba.druid.pool.DruidDataSource
-
-mybatis:
-  mapper-locations: classpath*:com/wang/mapper/*.xml
+    data-password: a70490238A!
+    url: jdbc:mysql://8.130.48.31:3306/flash20?characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+  
