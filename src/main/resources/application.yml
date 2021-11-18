@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    username: root
+    data-password: 123456
+    url:
+    driver-class-name:
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  mapper-locations: classpath*:com/wang/mapper/*.xml
